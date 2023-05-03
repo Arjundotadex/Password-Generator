@@ -1,13 +1,13 @@
 import random
 
-print("Welcome to your Password Generator")
+print("------Welcome to your Password Generator :) ------")
 
 chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&*1234567890"
 
 number = input("How many passwords you want to generate?:")
 number = int(number)
 
-length = int(input("What will be the length of your password?: "))
+length = input("What will be the length of your password?: ")
 length = int(length)
 
 print("\n Here are you passwords as requested: ")
